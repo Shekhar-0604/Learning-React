@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import  {useId} from 'react'
+import React, {useId} from 'react'
 
 
 function InputBox({
@@ -42,9 +42,9 @@ function InputBox({
                     disabled ={currencyDiasable}
                 >
                     
-                        {currencyOptios.map((Currency) => (
-                          <option key={Currency} value={Currency}>
-                            {Currency}
+                        {currencyOptios.map((currency) => (
+                          <option key={currency} value={currency}>
+                            {currency}
                           </option>
                         )) }
                 
